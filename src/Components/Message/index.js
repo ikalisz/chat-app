@@ -12,6 +12,7 @@ function Message({
     <SContainer>
       <SHeader>
         {data}
+        e3xtra data
       </SHeader>
     </SContainer>
   )
