@@ -14,7 +14,9 @@ function Home() {
         setSelectedUser={setSelectedUser}
         selectedUser={selectedUser}
       />
-      <Message />
+      <Message
+        selectedUser={selectedUser}
+      />
     </SContainer>
   )
 }
