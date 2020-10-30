@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 function Message({
   message,
+  selectedUser
 }) {
   const {
     data,
@@ -11,6 +12,7 @@ function Message({
   return (
     <SContainer>
       <SHeader>
+        {selectedUser}
         {data}
       </SHeader>
     </SContainer>
